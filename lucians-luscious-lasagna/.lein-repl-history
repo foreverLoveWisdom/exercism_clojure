@@ -1,0 +1,11 @@
+exit
+(total-time 3 50)
+(prep-time 5)
+(prep-time)
+repl
+(repl)
+exit
+(total-time)
+exit
+cl
+clear

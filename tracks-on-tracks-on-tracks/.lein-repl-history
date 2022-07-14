@@ -1,0 +1,227 @@
+exit
+'(1 2 3)
+(1 2 3)
+exit
+(first '(:a :b :c))
+(rest '(:a :b :c))
+(nth '(:a :b :c))
+(nth '(:a :b :c) 2)
+(nth '(:a :b :c) 3)
+(nth '(:a :b :c) -1)
+(nth '(:a :b :c) 0)
+(first '(:a :b :c))
+(first(first '(:a :b :c)))
+(first (first '(:a :b :c)))
+(first (rest '(:a :b :c)))
+(first (rest '(:a :b :c :d)))
+(rest (rest '(:a :b :c :d)))
+(first(rest (rest '(:a :b :c :d))))
+(rest (rest (rest '(:a :b :c :d))))
+(first (rest (rest (rest '(:a :b :c :d)))))
+(rest (rest (rest (rest '(:a :b :c :d)))))
+(first (rest (rest (rest (rest '(:a :b :c :d))))))
+(rest (rest (rest (rest (rest '(:a :b :c :d))))))
+(rest '())
+(defn empty-list [] '())
+empty-list
+(empty-list)
+(defn new-list
+  "Creates an empty list of languages to practice."
+  []
+  '())
+new-list
+(new-list)
+risntar
+add-language
+(new-list)
+(defn new-list
+  "Creates an empty list of languages to practice."
+  []
+  '())
+(defn new-list
+  "Creates an empty list of languages to practice."
+  []
+  '())
+(defn new-list
+  "Creates an empty list of languages to practice."
+  []
+  '())
+(defn add-language
+  "Adds a language to the list."
+  [lang-list lang]
+  )
+(add-language )
+(add-language)
+(add-language 1)
+(add-language 1 2)
+(new-list)
+new-list
+(new-list)
+(def my-todo (list "Feed the cat" "Clean the bathroom" "Save the world"))
+my-todo
+(cons my-todo "Go to my work" my-todo)
+(cons "Go to my work" my-todo)
+my-todo
+(conj "Testing conj..." my-todo)
+(cons my-todo)
+(cons my-todo "Conj...")
+(cons my-todo "Conj")
+(conj my-todo "Conj")
+my-todo
+(conj my-todo "WTF is happening???")
+(con my-todo "WTF is happening???")
+(conr my-todo "WTF is happening???")
+(cons my-todo "WTF is happening???")
+(cons "WTF is happening???" my-todo)
+(conj my-todo "WTF is happening???")
+(conj my-todo "abc")
+(cons my-todo "abc")
+(cons "abc" my-todo)
+(first my-todo)
+(rest my-todo)
+(my-todo)
+(println my-todo)
+my-todo
+(first my-todo)
+(rest my-todo)
+(rest (conj my-todo "resting..."))
+(rest my-todo)
+(first(rest (conj my-todo "resting...")))
+(first(first (conj my-todo "resting...")))
+(first (conj my-todo "resting..."))
+(nth my-todo 2)
+(nth my-todo 0)
+(nth my-todo 1)
+(nth (conj my-todo "Removing" ) 0)
+(nth (conj my-todo "Removing" ) 1)
+(rest (conj my-todo "Removing" )
+)
+(rest (conj my-todo "Removing"))
+(defn remove-language
+  "Removes the first language added to the list."
+  [lang-list]
+  rest lang-list)
+(remove-language (1 2 3))
+(remove-language '(1 2 3))
+(remove-language '(1 2 3)(defn learning-list "Creates an empty list, adds Clojure and Lisp, removes Lisp, adds Java and JavaScript, then finally returns a count of the total number of languages." [])
+  (conj () "Clojure" "Lisp"))(defn learning-list "Creates an empty list, adds Clojure and Lisp, removes Lisp, adds Java and JavaScript, then finally returns a count of the total number of languages." []
+(defn learning-list "Creates an empty list, adds Clojure and Lisp, removes Lisp, adds Java and JavaScript, then finally returns a count of the total number of languages." []
+  (conj () "Clojure" "Lisp"))
+(learning-list)
+(defn learning-list "Creates an empty list, adds Clojure and Lisp, removes Lisp, adds Java and JavaScript, then finally returns a count of the total number of languages." []
+  (rest (conj () "List" "Clojure")))
+(learning-list )
+(learning-list)
+(defn learning-list "Creates an empty list, adds Clojure and Lisp, removes Lisp, adds Java and JavaScript, then finally returns a count of the total number of languages." []
+  (rest (conj () "Lisp" "Clojure")))
+(learning-list)
+(defn learning-list "Creates an empty list, adds Clojure and Lisp, removes Lisp, adds Java and JavaScript, then finally returns a count of the total number of languages." []
+  (rest (conj () "Clojure" "Lisp")))
+(learning-list)
+(defn learning-list "Creates an empty list, adds Clojure and Lisp, removes Lisp, adds Java and JavaScript, then finally returns a count of the total number of languages." []
+  (conj (rest (conj () "Clojure" "Lisp"))  "Java" "JavaScript"))
+(learning-list)
+(defn learning-list "Creates an empty list, adds Clojure and Lisp, removes Lisp, adds Java and JavaScript, then finally returns a count of the total number of languages." []
+  (count(conj (rest (conj () "Clojure" "Lisp"))  "Java" "JavaScript")))
+(learning-list )
+(conj (list) "Clojure")
+(list)
+(conj (list) "Clojure")
+(conj (conj (list) "Clojure") "Lisp")
+(conj (conj (conj (list) "Clojure") "Lisp"))
+(rest (conj (conj (list) "Clojure") "Lisp"))
+(pop (conj (conj (list) "Clojure") "Lisp"))
+(conj (pop (conj (conj (list) "Clojure") "Lisp")) "JavaScript")
+(conj (conj (pop (conj (conj (list) "Clojure") "Lisp")) "JavaScript") "Java")
+(count (conj (conj (pop (conj (conj (list) "Clojure") "Lisp")) "JavaScript") "Java"))
+(defn learning-list
+  []
+  (new-list))
+(ns tracks-on-tracks-on-tracks)
+(defn new-list
+  "Creates an empty list of languages to practice."
+  []
+  '())
+(defn add-language
+  "Adds a language to the list."
+  [lang-list lang]
+  (cons lang lang-list))
+(defn first-language
+  "Returns the first language on the list."
+  [lang-list]
+  (first lang-list))
+(defn remove-language
+  "Removes the first language added to the list."
+  [lang-list]
+  (rest lang-list))
+(defn count-languages "Returns the total number of languages on the list." [lang-list]
+  (count lang-list))
+(defn learning-list
+  []
+  (new-list))
+(learning-list )
+(defn learning-list
+  []
+  (new-list))
+(learning-list )
+(defn learning-list
+  []
+  (add-language (new-list) "Clojure"))
+(learning-list )
+(ns tracks-on-tracks-on-tracks)
+(defn new-list
+  "Creates an empty list of languages to practice."
+  []
+  '())
+(defn add-language
+  "Adds a language to the list."
+  [lang-list lang]
+  (cons lang lang-list))
+(defn first-language
+  "Returns the first language on the list."
+  [lang-list]
+  (first lang-list))
+(defn remove-language
+  "Removes the first language added to the list."
+  [lang-list]
+  (rest lang-list))
+(defn count-languages "Returns the total number of languages on the list." [lang-list]
+  (count lang-list))
+; (defn learning-list "Creates an empty list, adds Clojure and Lisp, removes Lisp, adds Java and JavaScript, then finally returns a count of the total number of languages." []
+;   (count
+;     (conj
+;       (rest
+;         (conj () "Clojure" "Lisp"))
+;       "Java" "JavaScript")))
+(defn learning-list
+  []
+  (add-language (new-list, "clojure")))
+(println learning-list)
+(learning-list )
+(new-list)
+(add-language new-list)
+(add-language new-list "clojure")
+(add-language new-list, "clojure")
+(add-language(new-list, "clojure"))
+(add-language new-list)
+(add-language new-list "clojure")
+(defn too-much-fun
+"Return a cheer that might be a too much fun"
+[name]
+(str "Oh, my god!" name " This is not fun anymore!!"))
+(too-much-fun "Tien")
+(new-list)
+(add-language(new-list) "clojure")
+(add-language (new-list) "clojure")
+(if (even? 2) "even" "odd")
+(if (even? 2) "even")
+(if (even? 3) "even")
+((even? 3))
+(even? 3)
+(even? 2)
+(cond (= x 5) "first"
+(> x 7) "second"
+:else "last")
+(def x 2)
+(cond (= x 5) "first"
+:else "last")
