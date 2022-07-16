@@ -1,5 +1,7 @@
 (ns cars-assemble)
 
+(def default-rate 221)
+
 (defn success-rate [speed]
   (cond
        (= 0 speed) 0.0
@@ -13,7 +15,7 @@
   "Returns the assembly line's production rate per hour,
    taking into account its success rate"
   [speed]
-  (* 221 speed (success-rate speed)))
+  (* default-rate speed (success-rate speed)))
 
 (defn working-items
   "Calculates how many working cars are produced per minute"

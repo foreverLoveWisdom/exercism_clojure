@@ -162,3 +162,4 @@ exit
   [speed]
   (int (/ (production-rate speed) 60)))
 (working-items 6)
+exit
